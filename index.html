@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IMPORTING TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- IMPORTING FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/c7712fda9c.js" crossorigin="anonymous"></script>
+    <title>Ecommerce Website</title>
+</head>
+<body>
+    <div class="container mx-auto p-5">
+        <div class="nav-content-wrapper md:flex md:justify-between text-center">
+            <!-- THE BRANDING LOGO -->
+            <div class="flex flex-row justify-center">
+                <div class="bg-gradient-to-r from-purple-600 to-red-600 w-10 h-10 rounded-lg"></div>
+                <h1 class="text-3xl text-gray-600 ml-2">logo</h1>
+            </div>
+            <!-- NAVIGATION BAR -->
+            <div class="mt-2">
+                <a href="/" class="text-gray-600 hover:text-purple-700 p-4">Home</a>
+                <a href="/" class="text-gray-600 hover:text-purple-700 p-4">Shop</a>
+                <a href="/" class="text-gray-600 hover:text-purple-700 p-4">Blog</a>
+                <a href="/" class="text-gray-600 hover:text-purple-700 p-4">Contact</a>
+                <a href="/" class="bg-purple-500 hover:bg-purple-800 text-gray-50 p-1 text- md:p-3 md:text-lg rounded-full"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>
+                    Cart (0)</a>
+            </div>
+        </div>
+        <!-- END OF NAVIGATION BAR -->
+
+        <!-- WELCOME SCREEN -->
+        <div class="h-screen text-center flex flex-col justify-center items-center md:text-left md:flex-row">
+            <div class="w-2/5 flex flex-col w-full md:justify-center">
+                <h2 class="font-serif text-4xl md:text-5xl text-gray-600 mb-4">Some Catchy Title here</h2>
+                <p class="uppercase text-gray-700 tracking-wide mb-2">Our brand title goes here</p>
+                <p class="uppercase text-gray-700 mb-5">Our Moto goes here</p>
+                <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 text-xl rounded-full uppercase md:self-start py-2 px-3">Shop now</a>
+            </div>
+            <div class="w-3/5">
+                <img class="mt-20" src="images/hero-img.svg" alt="">
+            </div>
+        </div>
+        <!-- END OF WELCOME SCREEN -->
+
+        <!-- START OF COLLECTIONS -->
+        <div class="flex flex-col">
+            <h2 class="text-3xl font-medium">Mens Collections</h2>
+            <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <!-- START OF PRODUCT 1 -->
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/men/product1.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Men's T-Shirt</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+                <!-- END OF PRODUCT 1 -->
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/men/product2.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Slim Trousers</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/men/product3.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Nike Shoes</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/men/product4.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Watches</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+        </div>
+
+        <div class="flex flex-col">
+            <h2 class="text-3xl font-medium mt-10">Women's Collections</h2>
+            <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <!-- START OF PRODUCT 1 -->
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/women/product1.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">V Neck Tassel's Cape</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+                <!-- END OF PRODUCT 1 -->
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/women/product2.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Printed Dress</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/women/product3.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Blue Denim Dress</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+
+                <div class="shadow-lg rounded-lg">
+                    <a href="/">
+                        <img class="rounded-tl-lg rounded-tr-lg" src="images/products/women/product4.jpg" alt="">
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="">Denim Skirt</a></h3>
+                    </div>
+                    <div class="flex ml-5">
+                        <div class="bg-black w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-red-900 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-green-800 w-5 h-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+
+                    <div class="flex my-3 ml-4">
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XXL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">XL</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">L</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">M</div>
+                        <div class="border-2 border-gray-300 rounded-md text-xs px-2 py-1 text-gray-500 mr-2">S</div>
+                   </div>
+                   <div class="m-4 flex flex-col xl:flex-row justify-between">
+                    <a href="" class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 rounded-full text-sm py-2 px-2 hover:from-pink-600 hover:to-pink-600 mr-4 flex justify-center items-center my-2"><i class="fa fa-shopping-cart white" aria-hidden="true"></i>Add to cart</a>
+                    <a href="" class="bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-full text-sm py-2 px-2 mr-4 flex justify-center items-center my-2"><i class="fa fa-arrow-right" aria-hidden="true"></i>View item</a>
+                   </div>
+                </div>
+        </div>
+
+        <!-- START OF NEWSLETTER SECTION -->
+        <div class="rounded-lg shadow-lg my-20 flex flex-row">
+            <div class="lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:from-black lg:via-purple-900 to lg:transparent text-gray-100 p-12">
+                <div class="lg:w-1/2 ">
+                    <h2 class="text-2xl font-extrabold mb-4">Subscribe to get our offers First</h2>
+                    <p class="mb-4 leading-re w-72">Want to hear from us when we have new Offers? Sign up for our newsletter and we will email you everytime we have new sale offers!</p>
+                    <input type="email" placeholder="Enter Email Adress" class="bg-gray-600 text-gray-100 rounded-lg placeholder-gray-400 w-full py-3 px-4 focus:outline-none mb-8 ">
+                    <button type="Submit"  class="bg-red-600 py-3 rounded-lg w-full hover:bg-red-500">Submit</button>
+                </div>
+            </div>
+            <div class="lg:2/5 lg:flex lg:flex-row hidden">
+                <img class="h-96" src="/images/subscribe-banner.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END OF NEWSLETTER SECTTION -->
+
+    <!-- START OF FOOTER -->
+    <div class="border-t-2 border-gray-300 flex flex-col text-center md:flex-row md:justify-between p-4 text-sm">
+        <div class="mb-4">
+            <a href="" class="mx-2.5">About</a>
+            <a href="" class="mx-2.5">Privacy Policy</a>
+            <a href="" class="mx-2.5">Terms of Service</a>
+        </div>
+        <p>&copy; Asad Parkar All Copyrights reserved</p>
+    </div>
+
+</body>
+</html>
